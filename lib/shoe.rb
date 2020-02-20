@@ -11,6 +11,6 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-    Shoe.condition.update("new")
+    shoe.condition.update("new")
   end
 end
