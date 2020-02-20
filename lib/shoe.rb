@@ -5,8 +5,8 @@ class Shoe
     @brand = brand
   end
   
-  def shoe=(shoe)
-    @shoe = shoe
+  def shoe=(shoes)
+    @shoe = shoes
   end
   
   def cobble
