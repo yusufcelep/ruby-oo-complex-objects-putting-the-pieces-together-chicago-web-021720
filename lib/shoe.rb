@@ -5,8 +5,8 @@ class Shoe
     @brand = brand
   end
   
-  def condition=(condition)
-    @condition = condition
+  def condition=(new_condition)
+    @condition = new_condition
   end
   
   def cobble
